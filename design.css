@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+h1, h2{
+    color: hsl(234, 12%, 34%);
+}
+h2{
+    margin-bottom: 1rem;
+}
+span{
+    font-weight: 400;
+}
+p{
+    font-size: 1.5rem;
+    line-height: 2.7rem;
+    color: hsl(229, 6%, 66%);
+}
+body{
+    min-height: 97vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-text{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+.card-text h1{
+    font-size: 2.6rem;
+}
+.supervisor{
+    padding: 1rem 3.5rem;
+    margin-bottom: 3rem;
+    width: 30rem;
+    height: 22rem;
+    border-top: 0.3rem solid;
+    box-shadow: 0 5px 15px 0 hsl(229, 6%, 66%);
+    border-top-color: cyan;
+}
+.durable{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.team-builder{
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    width: 30rem;
+    height: 22rem;
+    border-top: 0.3rem solid;
+    box-shadow: 0 5px 15px 0 hsl(229, 6%, 66%);
+    border-top-color: red;
+}
+.karma{
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    width: 30rem;
+    height: 22rem;
+    border-top: 0.3rem solid;
+    box-shadow: 0 5px 15px 0 hsl(229, 6%, 66%);
+    border-top-color: orange;
+}
+.calculator{
+    padding: 1rem 3rem;
+    margin-bottom: 3rem;
+    width: 30rem;
+    height: 22rem;
+    border-top: 0.3rem solid;
+    box-shadow: 0 5px 15px 0 hsl(229, 6%, 66%);
+    border-top-color: blue;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.attribution{
+    font-size: 11px;
+    text-align: center;
+}
+.attribution a{
+    color: hsl(228,45%, 44%);
+}
+@media (min-width: 1080px){
+    .cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .calculator{
+        margin-left: 3rem;
+    }
+    .supervisor{
+        margin-right: 3rem;
+    }
+}
